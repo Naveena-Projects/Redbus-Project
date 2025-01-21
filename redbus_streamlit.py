@@ -15,10 +15,10 @@ import pandas as pd
 import pymysql
 
 mydb = pymysql.connect(
- host="localhost",
- user="root",
- password="PWsaga@31",
- database="guvi",
+ host="",
+ user="",
+ password="",
+ database="",
 )
 
 mycursor = mydb.cursor()
